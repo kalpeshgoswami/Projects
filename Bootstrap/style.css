@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    border-radius: 30px;
+    padding: 12px;
+}
+
+.btn-exploring button {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 28px;
+}
+
+.form {
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+#section-2 {
+    margin-top: 80px;
+    
+}
+
+.sec-2-img {
+    border-radius: 18px;
+}
