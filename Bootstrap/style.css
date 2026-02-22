@@ -23,9 +23,44 @@
 
 #section-2 {
     margin-top: 80px;
-    
+
 }
 
 .sec-2-img {
     border-radius: 18px;
+}
+
+.card-i {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+.bg-img {
+    background-image: url("./asset/bg-img.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+    padding: 60px 40px;
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.bg-img::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2));
+    border-radius: 25px;
+}
+
+.bg-img * {
+    position: relative;
+    z-index: 2;
 }
